@@ -24,12 +24,11 @@ public class BSTTest {
 
     @Test
     public void testAddMany() throws Exception {
-        tree.add("mary");
         tree.add("sab");
         tree.add("krishia");
         tree.add("chez");
         tree.add("uye");
-        assertEquals(tree.toString(), "chez krishia mary sab uye ");
+        assertEquals(tree.toString(), "chez krishia sab uye ");
     }
 
     @Test
